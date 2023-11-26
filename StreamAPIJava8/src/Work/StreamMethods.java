@@ -30,8 +30,8 @@ public class StreamMethods {
         newName.stream().forEach(System.out ::println);
    // Sorted()
         numbers.stream().sorted().forEach(System.out::println);
-   //min()
-
+     
+    //min()
         Integer integer = numbers.stream().min((x, y) -> x.compareTo(y)).get();
         System.out.println("MIN : "+integer);
 
